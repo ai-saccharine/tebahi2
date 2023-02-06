@@ -1,0 +1,509 @@
+INFO - 2023-01-26 02:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 02:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 02:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 02:20:00 --> Undefined array key "login"
+in VENDORPATH\myth\auth\src\Config\Routes.php on line 17.
+ 1 VENDORPATH\myth\auth\src\Config\Routes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login"', 'VENDORPATH\\myth\\auth\\src\\Config\\Routes.php', 17)
+ 2 SYSTEMPATH\Router\RouteCollection.php(673): CodeIgniter\Router\RouteCollection::Myth\Auth\Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 VENDORPATH\myth\auth\src\Config\Routes.php(34): CodeIgniter\Router\RouteCollection->group('ROOTPATH\\public', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(301): include('VENDORPATH\\myth\\auth\\src\\Config\\Routes.php')
+ 5 SYSTEMPATH\Router\RouteCollection.php(268): CodeIgniter\Router\RouteCollection->discoverRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 7 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-26 02:20:04 --> Undefined array key "login"
+in VENDORPATH\myth\auth\src\Config\Routes.php on line 17.
+ 1 VENDORPATH\myth\auth\src\Config\Routes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "login"', 'VENDORPATH\\myth\\auth\\src\\Config\\Routes.php', 17)
+ 2 SYSTEMPATH\Router\RouteCollection.php(673): CodeIgniter\Router\RouteCollection::Myth\Auth\Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 VENDORPATH\myth\auth\src\Config\Routes.php(34): CodeIgniter\Router\RouteCollection->group('ROOTPATH\\public', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(301): include('VENDORPATH\\myth\\auth\\src\\Config\\Routes.php')
+ 5 SYSTEMPATH\Router\RouteCollection.php(268): CodeIgniter\Router\RouteCollection->discoverRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 7 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 02:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 02:22:08 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 7.
+ 1 APPPATH\Views\layout\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('\\siswa\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\siswa\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\siswa\\login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 02:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 02:23:32 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 8.
+ 1 APPPATH\Views\layout\template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('\\siswa\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\siswa\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\siswa\\login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 02:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 02:23:34 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 8.
+ 1 APPPATH\Views\layout\template.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('\\siswa\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\siswa\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\siswa\\login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 02:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 02:23:59 --> Undefined variable $background
+in APPPATH\Views\layout\template.php on line 19.
+ 1 APPPATH\Views\layout\template.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $background', 'APPPATH\\Views\\layout\\template.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('\\siswa\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\siswa\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\siswa\\login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 02:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 02:25:39 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 7.
+ 1 APPPATH\Views\layout\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('\\siswa\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('\\siswa\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('\\siswa\\login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 02:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 02:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 02:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 02:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 02:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 04:12:58 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 7.
+ 1 APPPATH\Views\layout\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('App\\Views\\auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('App\\Views\\auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('App\\Views\\auth\\login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 04:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 04:12:59 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 7.
+ 1 APPPATH\Views\layout\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('App\\Views\\auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('App\\Views\\auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('App\\Views\\auth\\login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 04:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 04:14:14 --> Undefined variable $navbar
+in APPPATH\Views\layout\template.php on line 21.
+ 1 APPPATH\Views\layout\template.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navbar', 'APPPATH\\Views\\layout\\template.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('App\\Views\\auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('App\\Views\\auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('App\\Views\\auth\\login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 04:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 04:14:21 --> Undefined variable $navbar
+in APPPATH\Views\layout\template.php on line 21.
+ 1 APPPATH\Views\layout\template.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $navbar', 'APPPATH\\Views\\layout\\template.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('App\\Views\\auth\\login', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('App\\Views\\auth\\login', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(58): Myth\Auth\Controllers\AuthController->_render('App\\Views\\auth\\login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 04:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:41:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 04:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 05:52:02 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 7.
+ 1 APPPATH\Views\layout\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\layout\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('App\\Views\\auth\\register', [], true)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(412): view('App\\Views\\auth\\register', [...])
+ 7 VENDORPATH\myth\auth\src\Controllers\AuthController.php(133): Myth\Auth\Controllers\AuthController->_render('App\\Views\\auth\\register', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->register()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 05:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 05:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 06:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 06:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 06:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 07:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 07:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 07:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 07:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 07:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 07:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 07:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 07:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 07:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 07:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 07:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 07:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 08:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-01-26 09:15:01 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+#8 F:\xampp\htdocs\tebahi\vendor\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+#9 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 F:\xampp\htdocs\tebahi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('F:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-01-26 09:15:01 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`email`, `nama`, `jenisKelamin`, `umur`, `noTelp`, `created_at`, `updated_at`) VALUES (:email:, :nama:, :jenisKelamin:, :umur:, :noTelp:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 09:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 09:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-01-26 09:18:00 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+#8 F:\xampp\htdocs\tebahi\vendor\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+#9 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 F:\xampp\htdocs\tebahi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('F:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-01-26 09:18:00 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`email`, `nama`, `jenisKelamin`, `umur`, `noTelp`, `created_at`, `updated_at`) VALUES (:email:, :nama:, :jenisKelamin:, :umur:, :noTelp:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 11:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 11:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 11:00:17 --> Invalid file: "pages/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/home.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/home', [], true)
+ 3 APPPATH\Controllers\Pages.php(14): view('pages/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-26 17:26:17 --> Invalid file: "pages/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/home.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/home', [], true)
+ 3 APPPATH\Controllers\Pages.php(14): view('pages/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 17:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-26 17:29:12 --> Invalid file: "layout/template.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/settings', [], true)
+ 4 APPPATH\Controllers\Pages.php(24): view('pages/settings', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->settings()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-26 18:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 18:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 18:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-26 18:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-01-26 18:34:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci' at line 18 in F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 F:\xampp\htdocs\tebahi\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(38): CodeIgniter\Database\Forge->createTable('users', true)
+#5 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 F:\xampp\htdocs\tebahi\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-01-26 18:35:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci' at line 18 in F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 F:\xampp\htdocs\tebahi\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(38): CodeIgniter\Database\Forge->createTable('users', true)
+#5 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 F:\xampp\htdocs\tebahi\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-01-26 18:36:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci' at line 18 in F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 F:\xampp\htdocs\tebahi\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(38): CodeIgniter\Database\Forge->createTable('users', true)
+#5 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 F:\xampp\htdocs\tebahi\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-01-26 18:37:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci' at line 18 in F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 F:\xampp\htdocs\tebahi\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(38): CodeIgniter\Database\Forge->createTable('users', true)
+#5 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 F:\xampp\htdocs\tebahi\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-01-26 18:38:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci' at line 18 in F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 F:\xampp\htdocs\tebahi\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(38): CodeIgniter\Database\Forge->createTable('users', true)
+#5 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 F:\xampp\htdocs\tebahi\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-01-26 18:39:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci' at line 18 in F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 F:\xampp\htdocs\tebahi\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(38): CodeIgniter\Database\Forge->createTable('users', true)
+#5 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 F:\xampp\htdocs\tebahi\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-01-26 18:41:51 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'tebahi' in F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'tebahi', 3306, '', 0)
+#1 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1408): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1427): CodeIgniter\Database\BaseConnection->listTables()
+#5 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 F:\xampp\htdocs\tebahi\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'tebahi' in F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1408): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1427): CodeIgniter\Database\BaseConnection->listTables()
+#4 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 F:\xampp\htdocs\tebahi\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 F:\xampp\htdocs\tebahi\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}

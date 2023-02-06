@@ -1,0 +1,52 @@
+CRITICAL - 2023-01-25 04:23:45 --> Undefined variable $data
+in APPPATH\Views\pages\home.php on line 4.
+ 1 APPPATH\Views\pages\home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Views\\pages\\home.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Pages.php(14): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 04:43:25 --> Invalid file: "pages/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/login.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/login', [], true)
+ 3 APPPATH\Controllers\Siswa.php(24): view('pages/login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 04:43:33 --> Invalid file: "pages/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/login.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/login', [], true)
+ 3 APPPATH\Controllers\Siswa.php(24): view('pages/login', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswa->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-25 07:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-25 07:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-25 07:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-25 07:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-25 07:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-25 07:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-25 07:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-01-25 07:24:45 --> The "username" field cannot be used to validate credentials.
+in VENDORPATH\myth\auth\src\Exceptions\AuthException.php on line 34.
+ 1 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(136): Myth\Auth\Exceptions\AuthException::forInvalidFields('username')
+ 2 VENDORPATH\myth\auth\src\Authentication\LocalAuthenticator.php(19): Myth\Auth\Authentication\LocalAuthenticator->validate([...], true)
+ 3 VENDORPATH\myth\auth\src\Controllers\AuthController.php(87): Myth\Auth\Authentication\LocalAuthenticator->attempt([...], false)
+ 4 SYSTEMPATH\CodeIgniter.php(934): Myth\Auth\Controllers\AuthController->attemptLogin()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-01-25 07:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-25 07:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-01-25 16:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
